@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="twitter:creator" content="@swagshaw_dev">
     <meta name="twitter:title" content="🕹️ Aaron Shaw - Portfolio">
-    <meta name="twitter:description" content="🏆 Award-Winning Project Manager | 🎨 Pixel Art Enthusiast">
+    <meta name="twitter:description" content="🏆 Award-Winning Producer | 🎨 Pixel Art Enthusiast">
     <meta name="twitter:site">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://imagizer.imageshack.com/v2/528x419q70/923/VQFG1g.jpg">
@@ -78,7 +78,7 @@
 
         .user_page a,
         .footer a {
-            color: #FF2449
+            color: #FF2449;
         }
 
         .user_page .game_column,
@@ -88,7 +88,7 @@
         }
 
         .footer {
-            border-color: #3d325a
+            border-color: #3d325a;
         }
 
         .footer_inner {
@@ -122,6 +122,11 @@
     </style>
     <link rel="stylesheet" href="./index_files/css" type="text/css">
     <style id="custom_css" type="text/css">
+        .carousel_wrapper {
+            //display: none;
+            //////////// if I want to hide my art
+        }
+
         .header {
             text-align: center;
         }
@@ -155,6 +160,45 @@
             padding: 2rem 4rem 2rem 4rem;
         }
 
+        .title-name {
+            font-size: 3rem;
+        }
+
+        .profile-box {
+            border-radius: 25px;
+            border: 5px inset rgba(255, 255, 255, 0.5);
+            padding: 2rem 4rem 2rem 4rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .photo-box {
+            float: left;
+            width: 50%;
+        }
+
+        .photo {
+            padding-right: 10%;
+        }
+
+        .skills-box {
+            float: right;
+            width 50%;
+        }
+
+        .discord {
+            float: left;
+            width: 30%;
+            padding-left: 30px;
+        }
+
+        .email {
+            float: right;
+            width: 60%;
+            text-align: right;
+            padding-right: 30px;
+        }
+
         a {
             color: #FF2449;
             text-shadow: 2px 2px 6px rgba(0, 0, 0, .35), 2px 2px 1px rgba(0, 0, 0, .35);
@@ -178,7 +222,7 @@
                 }
 
                 a:hover {
-                    cursor: url(https://cdn.discordapp.com/attachments/816252458602201089/1164375193087643648/woahhand.png) 7 5, auto;
+                    cursor: url(./index_files/handurl.png) 7 5, auto;
                     ///////end cursors}
 
                     div.game_cell {
@@ -254,10 +298,17 @@
     </style>
 </head>
 
+<a href="https://drive.google.com/file/d/1Mex-7uJOJ551-SvxH0dTxDQY6wHoL5DK/view" rel="nofollow noopener"
+    referrerpolicy="origin">
+</a>
+
 <body data-host="itch.io" data-page_name="user" class="locale_en responsive no_theme_toggle"
     data-new-gr-c-s-check-loaded="14.1133.0" data-gr-ext-installed="">
     <ul id="user_tools" class="user_tools">
         <li><a href="mailto:l.aaron.shaw@gmail.com" class="action_btn">Contact 💥 Aaron Shaw</a></li>
+        <li><a href="https://drive.google.com/file/d/1Mex-7uJOJ551-SvxH0dTxDQY6wHoL5DK/view" rel="nofollow noopener"
+    referrerpolicy="origin" class="action_btn">View - Resume</a></li>
+
     </ul>
     <div class="user_page_wrap" style="min-height: 639px;">
         <div id="user_4191981" class="user_page page_widget base_widget mode_grid mode_collection_grid">
@@ -271,22 +322,41 @@
                 <div class="columns">
                     <div class="column profile_column">
                         <div class="user_profile formatted">
+
                             <p class="text-center"><br></p>
-                            <p class="text-center"><img src="./index_files/ms7tY9.png" loading="lazy"></p>
-                            <p class="text-center">Aaron Shaw - <strong>💼 Project Manager</strong><br></p>
-                            <p class="text-center"><a href="https://drive.google.com/file/d/1Mex-7uJOJ551-SvxH0dTxDQY6wHoL5DK/view" rel="nofollow noopener" referrerpolicy="origin">View - Resume</a><br
-                                >Discord: <strong>swagshaw</strong><br>Email:
-                                <strong>l.aaron.shaw@gmail.com</strong>
-                            </p>
-                            <h6 class="text-center"><br><u>Key Skills</u>: Producetion, Design, Team Coordination and Assembly.
-                                <br><u>Specializations</u>: Creative Direction, Scrum Master Certification, Quality
-                                Assurance.
-                                <br><u>Tools</u>: GitHub, JIRA, Trello, and Excel - and often
-                                I communicate with Discord and Slack.
-                                <br><br> ⭐⭐⭐<br><br>💡 With over 4 years of hands-on game design experience, I thrive
+
+                            <span class="title-name">Aaron Shaw - <strong>💼 Project Manager</strong></span>
+
+
+                            <div class="profile-box">
+                                <div class="photo-box">
+                                    <p class="text-center photo"><img src="./index_files/ms7tY9.png" loading="lazy"></p>
+                                </div>
+
+                                <div class="skill-box text-center"><br><u>Key Skills</u>: Production, Design, Team
+                                    Coordination and
+                                    Assembly.
+                                    <br><u>Specializations</u>: Creative Direction, Scrum Master Certification, Quality
+                                    Assurance.
+                                    <br><u>Tools</u>: GitHub, JIRA, Trello, and Excel - and often
+                                    I communicate with Discord and Slack.
+                                    <br><br> ⭐⭐⭐<br><br>💡 With over 4 years of hands-on game production experience, I
+                                    thrive
                                     as a versatile team player, uniting diverse skills to create top-tier games from
                                     concept to completion. 💡
-                            </h6>
+                                </div>
+                            </div>
+
+                            <div class="contact-info">
+                                <span class="discord">
+                                    Discord: <strong>swagshaw</strong>
+                                </span>
+
+                                <span class="email">
+                                    Email: <strong><a href="mailto:l.aaron.shaw@gmail.com" class="action_btn">l.aaron.shaw@gmail.com</a></strong>
+                                </span>
+                            </div>
+
                             <p class="text-center"><br></p>
                             <h5 class="text-center">
                                 <p>🏆 My latest game jam won $10,000! 🏆<br></p>
@@ -302,10 +372,13 @@
                                 announcement!<br>Knight Rider: Arsenal - taking <strong>3rd place</strong>
                                 in GameJolt's Together Jam. On this game, I specifically worked as Creative
                                 Director and Producer, organizing the team structure to produce 3 unique game modes
-                                within 2 weeks.<br>I also oversaw the game's script and art style and had the rare privilege
+                                within 2 weeks.<br>I also directed the game's overall script and art style and had the
+                                rare privilege
                                 of incorporating two of NBCUniversal's iconic IPs - Knight Rider, and Airwolf
                                 - to create a team-up between land and air.
                             </h5>
+
+
                             <p class="text-center"><strong><u>Now, check out these awesome games I've
                                         released!</u></strong></p>
                             <p class="text-center"><iframe src="./index_files/saved_resource.html" frameborder="0"
